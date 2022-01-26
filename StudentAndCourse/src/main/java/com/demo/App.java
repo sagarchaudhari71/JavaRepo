@@ -22,8 +22,7 @@ public class App {
 		
 		/*Course c = new Course();
 		c.setCourse("dotNet");
-		session.save(c);*/
-		
+		session.save(c);*/	
 		
 		Student s = session.get(Student.class, 2);
 		Course c = session.get(Course.class, 4);
